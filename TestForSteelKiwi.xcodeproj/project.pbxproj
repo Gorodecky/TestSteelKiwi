@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04B2CDAA1E4680C600812EDB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B2CDA91E4680C600812EDB /* Security.framework */; };
+		04B2CDAD1E488F3500812EDB /* ServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B2CDAC1E488F3500812EDB /* ServerManager.m */; };
+		04B2CDB01E48D3C300812EDB /* Repository.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B2CDAF1E48D3C300812EDB /* Repository.m */; };
+		04B2CDB31E48DD4D00812EDB /* ListRepositoryesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B2CDB21E48DD4D00812EDB /* ListRepositoryesViewController.m */; };
+		04B2CDB91E48E22D00812EDB /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B2CDB81E48E22D00812EDB /* CustomTableViewCell.m */; };
+		04B2CDBC1E4A408300812EDB /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B2CDBB1E4A408300812EDB /* SearchViewController.swift */; };
+		04CDE5781E420CB7002F4226 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CDE5771E420CB7002F4226 /* main.m */; };
+		04CDE57B1E420CB7002F4226 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CDE57A1E420CB7002F4226 /* AppDelegate.m */; };
+		04CDE5811E420CB7002F4226 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CDE57F1E420CB7002F4226 /* Main.storyboard */; };
+		04CDE5831E420CB7002F4226 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CDE5821E420CB7002F4226 /* Assets.xcassets */; };
+		04CDE5861E420CB7002F4226 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CDE5841E420CB7002F4226 /* LaunchScreen.storyboard */; };
+		04E4622A1E4B574B008340CA /* SearchViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E462291E4B574B008340CA /* SearchViewTableViewCell.swift */; };
+		04E4622C1E4B616C008340CA /* RepositorySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E4622B1E4B616C008340CA /* RepositorySearch.swift */; };
+		819C449C20D67972481EF83C /* Pods_TestForSteelKiwi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C534BBC4C33248BAD5B077C4 /* Pods_TestForSteelKiwi.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04B2CDA91E4680C600812EDB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		04B2CDAB1E488F3500812EDB /* ServerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerManager.h; sourceTree = "<group>"; };
+		04B2CDAC1E488F3500812EDB /* ServerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerManager.m; sourceTree = "<group>"; };
+		04B2CDAE1E48D3C300812EDB /* Repository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Repository.h; sourceTree = "<group>"; };
+		04B2CDAF1E48D3C300812EDB /* Repository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Repository.m; sourceTree = "<group>"; };
+		04B2CDB11E48DD4D00812EDB /* ListRepositoryesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListRepositoryesViewController.h; sourceTree = "<group>"; };
+		04B2CDB21E48DD4D00812EDB /* ListRepositoryesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListRepositoryesViewController.m; sourceTree = "<group>"; };
+		04B2CDB71E48E22D00812EDB /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		04B2CDB81E48E22D00812EDB /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		04B2CDBA1E4A408200812EDB /* TestForSteelKiwi-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestForSteelKiwi-Bridging-Header.h"; sourceTree = "<group>"; };
+		04B2CDBB1E4A408300812EDB /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		04CDE5731E420CB7002F4226 /* TestForSteelKiwi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestForSteelKiwi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CDE5771E420CB7002F4226 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04CDE5791E420CB7002F4226 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04CDE57A1E420CB7002F4226 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04CDE5801E420CB7002F4226 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04CDE5821E420CB7002F4226 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04CDE5851E420CB7002F4226 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04CDE5871E420CB7002F4226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E462291E4B574B008340CA /* SearchViewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewTableViewCell.swift; sourceTree = "<group>"; };
+		04E4622B1E4B616C008340CA /* RepositorySearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositorySearch.swift; sourceTree = "<group>"; };
+		4EA8FEFE1B6BA077015142E8 /* Pods-TestForSteelKiwi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestForSteelKiwi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestForSteelKiwi/Pods-TestForSteelKiwi.debug.xcconfig"; sourceTree = "<group>"; };
+		C534BBC4C33248BAD5B077C4 /* Pods_TestForSteelKiwi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestForSteelKiwi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E339152EB796F5E2A92303D9 /* Pods-TestForSteelKiwi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestForSteelKiwi.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestForSteelKiwi/Pods-TestForSteelKiwi.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04CDE5701E420CB7002F4226 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B2CDAA1E4680C600812EDB /* Security.framework in Frameworks */,
+				819C449C20D67972481EF83C /* Pods_TestForSteelKiwi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04CDE56A1E420CB7002F4226 = {
+			isa = PBXGroup;
+			children = (
+				04CDE5751E420CB7002F4226 /* TestForSteelKiwi */,
+				04CDE5741E420CB7002F4226 /* Products */,
+				A599F6B8B65861BF40A18838 /* Pods */,
+				F5CED221F214F66716C9F727 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04CDE5741E420CB7002F4226 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04CDE5731E420CB7002F4226 /* TestForSteelKiwi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04CDE5751E420CB7002F4226 /* TestForSteelKiwi */ = {
+			isa = PBXGroup;
+			children = (
+				04CDE57F1E420CB7002F4226 /* Main.storyboard */,
+				04E462261E4B5543008340CA /* Views */,
+				04E462251E4B5469008340CA /* Controllers */,
+				04E462271E4B5565008340CA /* Models */,
+				04E462281E4B5591008340CA /* API */,
+				04CDE5761E420CB7002F4226 /* Supporting Files */,
+			);
+			path = TestForSteelKiwi;
+			sourceTree = "<group>";
+		};
+		04CDE5761E420CB7002F4226 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04CDE5791E420CB7002F4226 /* AppDelegate.h */,
+				04CDE57A1E420CB7002F4226 /* AppDelegate.m */,
+				04CDE5841E420CB7002F4226 /* LaunchScreen.storyboard */,
+				04CDE5871E420CB7002F4226 /* Info.plist */,
+				04CDE5771E420CB7002F4226 /* main.m */,
+				04B2CDBA1E4A408200812EDB /* TestForSteelKiwi-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04E462251E4B5469008340CA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				04B2CDB11E48DD4D00812EDB /* ListRepositoryesViewController.h */,
+				04B2CDB21E48DD4D00812EDB /* ListRepositoryesViewController.m */,
+				04B2CDBB1E4A408300812EDB /* SearchViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		04E462261E4B5543008340CA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04CDE5821E420CB7002F4226 /* Assets.xcassets */,
+				04B2CDB71E48E22D00812EDB /* CustomTableViewCell.h */,
+				04B2CDB81E48E22D00812EDB /* CustomTableViewCell.m */,
+				04E462291E4B574B008340CA /* SearchViewTableViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		04E462271E4B5565008340CA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				04B2CDAE1E48D3C300812EDB /* Repository.h */,
+				04B2CDAF1E48D3C300812EDB /* Repository.m */,
+				04E4622B1E4B616C008340CA /* RepositorySearch.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		04E462281E4B5591008340CA /* API */ = {
+			isa = PBXGroup;
+			children = (
+				04B2CDAB1E488F3500812EDB /* ServerManager.h */,
+				04B2CDAC1E488F3500812EDB /* ServerManager.m */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		A599F6B8B65861BF40A18838 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4EA8FEFE1B6BA077015142E8 /* Pods-TestForSteelKiwi.debug.xcconfig */,
+				E339152EB796F5E2A92303D9 /* Pods-TestForSteelKiwi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F5CED221F214F66716C9F727 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04B2CDA91E4680C600812EDB /* Security.framework */,
+				C534BBC4C33248BAD5B077C4 /* Pods_TestForSteelKiwi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04CDE5721E420CB7002F4226 /* TestForSteelKiwi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CDE58A1E420CB7002F4226 /* Build configuration list for PBXNativeTarget "TestForSteelKiwi" */;
+			buildPhases = (
+				0674E89BD91F686EA0691D65 /* [CP] Check Pods Manifest.lock */,
+				04CDE56F1E420CB7002F4226 /* Sources */,
+				04CDE5701E420CB7002F4226 /* Frameworks */,
+				04CDE5711E420CB7002F4226 /* Resources */,
+				D4DA41AAFCD4D11492E7CCF6 /* [CP] Embed Pods Frameworks */,
+				06B1EFB856A3BA169F72A503 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestForSteelKiwi;
+			productName = TestForSteelKiwi;
+			productReference = 04CDE5731E420CB7002F4226 /* TestForSteelKiwi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04CDE56B1E420CB7002F4226 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Horodecky Vitaliy";
+				TargetAttributes = {
+					04CDE5721E420CB7002F4226 = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 04CDE56E1E420CB7002F4226 /* Build configuration list for PBXProject "TestForSteelKiwi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04CDE56A1E420CB7002F4226;
+			productRefGroup = 04CDE5741E420CB7002F4226 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04CDE5721E420CB7002F4226 /* TestForSteelKiwi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04CDE5711E420CB7002F4226 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CDE5861E420CB7002F4226 /* LaunchScreen.storyboard in Resources */,
+				04CDE5831E420CB7002F4226 /* Assets.xcassets in Resources */,
+				04CDE5811E420CB7002F4226 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0674E89BD91F686EA0691D65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		06B1EFB856A3BA169F72A503 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestForSteelKiwi/Pods-TestForSteelKiwi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4DA41AAFCD4D11492E7CCF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestForSteelKiwi/Pods-TestForSteelKiwi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04CDE56F1E420CB7002F4226 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E4622C1E4B616C008340CA /* RepositorySearch.swift in Sources */,
+				04E4622A1E4B574B008340CA /* SearchViewTableViewCell.swift in Sources */,
+				04B2CDAD1E488F3500812EDB /* ServerManager.m in Sources */,
+				04B2CDB01E48D3C300812EDB /* Repository.m in Sources */,
+				04B2CDBC1E4A408300812EDB /* SearchViewController.swift in Sources */,
+				04CDE57B1E420CB7002F4226 /* AppDelegate.m in Sources */,
+				04B2CDB31E48DD4D00812EDB /* ListRepositoryesViewController.m in Sources */,
+				04B2CDB91E48E22D00812EDB /* CustomTableViewCell.m in Sources */,
+				04CDE5781E420CB7002F4226 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04CDE57F1E420CB7002F4226 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04CDE5801E420CB7002F4226 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04CDE5841E420CB7002F4226 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04CDE5851E420CB7002F4226 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04CDE5881E420CB7002F4226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04CDE5891E420CB7002F4226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04CDE58B1E420CB7002F4226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EA8FEFE1B6BA077015142E8 /* Pods-TestForSteelKiwi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = TestForSteelKiwi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Home.TestForSteelKiwi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestForSteelKiwi/TestForSteelKiwi-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		04CDE58C1E420CB7002F4226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E339152EB796F5E2A92303D9 /* Pods-TestForSteelKiwi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = TestForSteelKiwi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Home.TestForSteelKiwi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestForSteelKiwi/TestForSteelKiwi-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04CDE56E1E420CB7002F4226 /* Build configuration list for PBXProject "TestForSteelKiwi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CDE5881E420CB7002F4226 /* Debug */,
+				04CDE5891E420CB7002F4226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04CDE58A1E420CB7002F4226 /* Build configuration list for PBXNativeTarget "TestForSteelKiwi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CDE58B1E420CB7002F4226 /* Debug */,
+				04CDE58C1E420CB7002F4226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04CDE56B1E420CB7002F4226 /* Project object */;
+}
